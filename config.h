@@ -65,7 +65,7 @@
 // ---------- NeoPixel ----------
 #define NEOPIXEL_DASH_PIN     37  // display console centrale
 #define NEOPIXEL_DASH_COUNT   10
-#define NEOPIXEL_CEIL_PIN     50  // luce interna superiore
+#define NEOPIXEL_CEIL_PIN     30  // luce interna superiore
 #define NEOPIXEL_CEIL_COUNT   8
 
 // ---------- Pulsanti fisici (4 totali, INPUT_PULLUP) ----------
