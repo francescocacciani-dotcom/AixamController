@@ -16,9 +16,9 @@
    ============================================================ */
 
 // ---------- Wake / ignition (via optoisolatore consigliato) ----------
-#define PIN_IGNITION        2   // INT0 - "chiave" - usato anche per wake da sleep
-#define PIN_ENGINE_RUNNING   31  // "motore"
-#define PIN_BATTERY_CHARGE   45  // sensore carica batteria
+#define PIN_IGNITION               2   // INT0 - "chiave" - usato anche per wake da sleep
+#define PIN_ENGINE_RUNNING         31  // "motore"
+#define PIN_TRANSISTOR_UTILITIES   45  // transistor che comanda l'alimentazione ai relè delle luci e dei dht
 
 // ---------- PWM dimmer (MOSFET lato basso) ----------
 #define PWM_AUX              7   // dimming ventole frontali ("vent" Nextion, era ambiguo nell'originale)
@@ -60,10 +60,10 @@
 // ---------- Sensori temperatura DHT11 ----------
 #define DHT_EXTERNAL          35
 #define DHT_INTERNAL_1        36
-#define DHT_INTERNAL_2        42
+#define DHT_INTERNAL_2        37
 
 // ---------- NeoPixel ----------
-#define NEOPIXEL_DASH_PIN     37  // display console centrale
+#define NEOPIXEL_DASH_PIN     42  // display console centrale
 #define NEOPIXEL_DASH_COUNT   10
 #define NEOPIXEL_CEIL_PIN     30  // luce interna superiore
 #define NEOPIXEL_CEIL_COUNT   8
