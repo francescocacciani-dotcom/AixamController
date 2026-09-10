@@ -61,12 +61,13 @@ void lcdSecondary_update() {
       break;
     case 3: // batteria
       lcd.setCursor(0, 0); lcd.print("Batt: "); lcd.print(car.batteryVoltage, 2); lcd.print("V ");
-      lcd.setCursor(0, 1); lcd.print(car.batteryCharging ? "In carica    " : "Non in carica");
+      //lcd.setCursor(0, 1); lcd.print(car.batteryCharging ? "In carica    " : "Non in carica");
       break;
     case 4: // luci
       lcd.setCursor(0, 0); lcd.print("Luci: "); lcd.print(car.lightsAutoMode ? "AUTO" : "MAN ");
+      lcd.setCursor(12, 0); lcd.print(car.ambientLight);
       lcd.setCursor(0, 1); lcd.print("Pos:"); lcd.print(car.positionLightsOn ? "ON " : "OFF");
-      lcd.print(" Anab:"); lcd.print(car.lowBeamOn ? "ON" : "OFF");
+      lcd.print(" Anab:"); lcd.print(car.lowBeamOn ? "ON " : "OFF");
       break;
   }
 }

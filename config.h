@@ -52,6 +52,9 @@
 #define RELAY_FAN3           28
 #define RELAY_SPARE          29
 
+#define RELAY_POSIZIONI      51
+#define RELAY_ANABBAGLIANTI  53
+
 // ---------- Selettore velocità ventola (3 posizioni, contatti esistenti) ----------
 #define SW_FAN_POS1           32
 #define SW_FAN_POS2           33

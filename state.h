@@ -12,7 +12,7 @@ struct CarState {
   bool ignitionOn = false;
   bool lastIgnitionOn = false;
   bool engineRunning = false;
-  bool batteryCharging = false;
+  //bool batteryCharging = false;
   float batteryVoltage = 0;
   float batteryVoltageProtection = 11.5;
   bool batteryLow = false;

@@ -277,7 +277,7 @@ void nextionUI_sendUpdate() {
   snprintf(buf, sizeof(buf), "tVolt.txt=\"V= %s\"", fbuf);
   Serial2.print(buf); nextionUI_endCmd();
   if(car.voltageOverride) Serial2.print("tStatoVolt.txt=\"override\"");
-  else Serial2.print(car.batteryCharging ? F("tStatoVolt.txt=\"in carica\"") : F("tStatoVolt.txt=\"batteria OK\""));
+  else Serial2.print("tStatoVolt.txt=\"batteria OK\"");
   nextionUI_endCmd();
   Serial2.print(car.fanAutoMode ? F("tauto.txt=\"Automatico\"") : F("tauto.txt=\"Manuale\""));
   nextionUI_endCmd();

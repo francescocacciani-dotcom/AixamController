@@ -37,12 +37,14 @@ void setup() {
 
   pinMode(LED_MODE_AUTO, OUTPUT);
   pinMode(LED_MODE_MANUAL, OUTPUT);
-
+  
+  pinMode(PIN_TRANSISTOR_UTILITIES, OUTPUT);
+  
   pinMode(BTN_BAFFI_MANUAL, INPUT_PULLUP);
   pinMode(BTN_CAR_LOCK_TOGGLE, INPUT_PULLUP);
   pinMode(SW_LIGHTS_AUTO_MANUAL, INPUT_PULLUP);
   pinMode(PIN_ENGINE_RUNNING, INPUT);
-  pinMode(PIN_BATTERY_CHARGE, INPUT);
+  
   pinMode(PIN_DOOR_SENSE, INPUT_PULLUP);
 
   settings_load();
@@ -62,7 +64,7 @@ void setup() {
 void loop() {
   car.ignitionOn = (digitalRead(PIN_IGNITION) == HIGH); // TODO: verificare polarità reale dopo optoisolatore
   car.engineRunning = digitalRead(PIN_ENGINE_RUNNING);
-  car.batteryCharging = digitalRead(PIN_BATTERY_CHARGE);
+  //car.batteryCharging = digitalRead(PIN_BATTERY_CHARGE);
 
   handleIgnitionEdge();
   handleDoorSense();
