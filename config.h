@@ -18,20 +18,20 @@
 // ---------- Wake / ignition (via optoisolatore consigliato) ----------
 #define PIN_IGNITION               2   // INT0 - "chiave" - usato anche per wake da sleep
 #define PIN_ENGINE_RUNNING         31  // "motore"
-#define PIN_TRANSISTOR_UTILITIES   45  // transistor che comanda l'alimentazione ai relè delle luci e dei dht
+#define TRANSISTOR_UTILITIES   45  // transistor che comanda l'alimentazione ai relè delle luci e dei dht
 
 // ---------- PWM dimmer (MOSFET lato basso) ----------
-#define PWM_AUX              7   // dimming ventole frontali ("vent" Nextion, era ambiguo nell'originale)
-#define PWM_OCCHI            6  // dimming led occhi/specchietti (spostato da pin 4: libero per SD CS)
-#define PWM_DOOR_LED         5   // dimming led "baffi"/cortesia porta
+#define PWM_AUX               7   // dimming ventole frontali ("vent" Nextion, era ambiguo nell'originale)
+#define PWM_OCCHI             6  // dimming led occhi/specchietti (spostato da pin 4: libero per SD CS)
+#define PWM_DOOR_LED          5   // dimming led "baffi"/cortesia porta
 
 // ---------- Encoder rotativo (setpoint temperatura) ----------
 // CLK su interrupt hardware vero (Mega: 2,3,18,19,20,21 sono gli unici
 // pin con interrupt esterno). 18/19 sono liberi (Serial1 non è usato
 // in questo progetto) - se in futuro ti serve Serial1, andranno spostati.
-#define ENCODER_CLK          18  // INT3 - lettura per interrupt, non più a polling
-#define ENCODER_DT           19  // solo lettura digitale, non serve interrupt
-#define ENCODER_SW           52  // opzionale, invariato
+#define ENCODER_CLK           18  // INT3 - lettura per interrupt, non più a polling
+#define ENCODER_DT            19  // solo lettura digitale, non serve interrupt
+#define ENCODER_SW            52  // opzionale, invariato
 
 // ---------- LED indicatori modalità luci marcia ----------
 #define LED_MODE_AUTO         8
@@ -39,21 +39,21 @@
 
 // ---------- Shield ufficiale Arduino con lettore SD (Ethernet Shield 2 o simile) ----------
 #define SD_CS_PIN             4   // chip select SD, standard su shield ufficiali Arduino
-#define ETH_CS_PIN           10   // chip select W5500 (se presente sulla shield) - va tenuto HIGH se non usato
-#define LOG_FILENAME          "aixamlog.csv"
+#define ETH_CS_PIN            10   // chip select W5500 (se presente sulla shield) - va tenuto HIGH se non usato
+#define LOG_FILENAME         "aixamlog.csv"
 
 // ---------- Relè (board attiva LOW tipica) ----------
-#define RELAY_SUB            22
-#define RELAY_INVERTER       23
-#define RELAY_LED            24  // Led
-#define RELAY_MIRROR         25  // alimentazione led sotto specchietti/occhi
-#define RELAY_FAN1           26
-#define RELAY_FAN2           27
-#define RELAY_FAN3           28
-#define RELAY_SPARE          29
+#define RELAY_SUB             22
+#define RELAY_INVERTER        23
+#define RELAY_LED             24  // Led
+#define RELAY_MIRROR          25  // alimentazione led sotto specchietti/occhi
+#define RELAY_FAN1            26
+#define RELAY_FAN2            27
+#define RELAY_FAN3            28
+#define RELAY_FRONT           29
 
-#define RELAY_POSIZIONI      51
-#define RELAY_ANABBAGLIANTI  53
+#define RELAY_POSIZIONI       51
+#define RELAY_ANABBAGLIANTI   53
 
 // ---------- Selettore velocità ventola (3 posizioni, contatti esistenti) ----------
 #define SW_FAN_POS1           32
@@ -82,10 +82,10 @@
 
 // ---------- Chiusura centralizzata ----------
 #define RELAY_LOCK            46
-#define RELAY_UNLOCK           47
-#define SENSE_LOCK             49  // via optoisolatore, digitale pulito
-#define SENSE_UNLOCK            48  // via optoisolatore, digitale pulito
-#define SENSE_EXTRA_CONTACT      50  // 3° contatto centralina/telecomando (uso futuro), via optoisolatore
+#define RELAY_UNLOCK          47
+#define SENSE_LOCK            49  // via optoisolatore, digitale pulito
+#define SENSE_UNLOCK          48  // via optoisolatore, digitale pulito
+#define SENSE_EXTRA_CONTACT   50  // 3° contatto centralina/telecomando (uso futuro), via optoisolatore
 
 // ---------- Sensore porta ----------
 #define PIN_DOOR_SENSE        41 

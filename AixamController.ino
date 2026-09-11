@@ -102,6 +102,8 @@ void handleIgnitionEdge() {
     log_write(LOG_INFO, "IGN", "Chiave ON");
     //lcdSecondary_wakeup();
     car.fanSpeed = 0;
+    car.powerAccessories = true;
+    car.powerFrontCar = true;
     if(car.subAutoMode){ car.subOn=true; }
     if(car.occhiAutoOn = 1){ car.occhiOn = true; }
   } else if (!car.ignitionOn && car.lastIgnitionOn) {
@@ -113,6 +115,8 @@ void handleIgnitionEdge() {
     // spenta. La luce interna a soffitto resta ESCLUSA di proposito
     // (funzione tipo luce di cortesia, deve restare comandabile anche
     // a chiave spenta), tutto il resto si spegne.
+    car.powerAccessories = false;
+    car.powerFrontCar = false;
 
     car.fanSpeed = 0;
     car.baffiOn = false;
@@ -221,6 +225,8 @@ void readBatteryVoltage() {
 }
 
 void applyOutputs() {
+  digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? HIGH : LOW);
+  digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
   digitalWrite(RELAY_SUB, car.subOn ? LOW : HIGH);
   digitalWrite(RELAY_INVERTER, car.inverterOn ? LOW : HIGH);
   digitalWrite(RELAY_MIRROR, car.mirrorBrightness > 0 ? LOW : HIGH);

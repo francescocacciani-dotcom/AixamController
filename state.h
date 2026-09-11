@@ -12,11 +12,16 @@ struct CarState {
   bool ignitionOn = false;
   bool lastIgnitionOn = false;
   bool engineRunning = false;
+  bool lastEngineRunning =false;
   //bool batteryCharging = false;
   float batteryVoltage = 0;
   float batteryVoltageProtection = 11.5;
   bool batteryLow = false;
   bool voltageOverride = false;
+  
+  // Power controll
+  bool powerAccessories = false;
+  bool powerFrontCar = false;
 
   // Porte / avvicinamento
   bool doorCurtesyEnabled = true;
