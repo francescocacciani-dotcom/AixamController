@@ -27,7 +27,7 @@ void setup() {
 
   // Relè: tutti OFF (attivo LOW) all'avvio
   int relayPins[] = {RELAY_SUB, RELAY_INVERTER, RELAY_LED, RELAY_MIRROR,
-                      RELAY_FAN1, RELAY_FAN2, RELAY_FAN3, RELAY_SPARE,
+                      RELAY_FAN1, RELAY_FAN2, RELAY_FAN3, RELAY_FRONT,
                       RELAY_LOCK, RELAY_UNLOCK};
   for (int p : relayPins) { pinMode(p, OUTPUT); digitalWrite(p, HIGH); }
 
@@ -38,7 +38,7 @@ void setup() {
   pinMode(LED_MODE_AUTO, OUTPUT);
   pinMode(LED_MODE_MANUAL, OUTPUT);
   
-  pinMode(PIN_TRANSISTOR_UTILITIES, OUTPUT);
+  pinMode(TRANSISTOR_UTILITIES, OUTPUT);
   
   pinMode(BTN_BAFFI_MANUAL, INPUT_PULLUP);
   pinMode(BTN_CAR_LOCK_TOGGLE, INPUT_PULLUP);
@@ -225,15 +225,20 @@ void readBatteryVoltage() {
 }
 
 void applyOutputs() {
-  digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? HIGH : LOW);
+  digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? LOW : HIGH);
   digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
+  digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
+  digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
+
   digitalWrite(RELAY_SUB, car.subOn ? LOW : HIGH);
   digitalWrite(RELAY_INVERTER, car.inverterOn ? LOW : HIGH);
   digitalWrite(RELAY_MIRROR, car.mirrorBrightness > 0 ? LOW : HIGH);
 
+
   if (!car.courtesySequenceActive) {
     analogWrite(PWM_OCCHI, car.occhiOn?255:0);
   }
+
   // TODO aggiungere controllo occhi
   digitalWrite(RELAY_LED, car.ledOn ? LOW:HIGH); // controllo led interni
   analogWrite(PWM_AUX, car.frontFanOn ? map(car.frontFanSpeed, 0, 100, 0, 255) : 0);

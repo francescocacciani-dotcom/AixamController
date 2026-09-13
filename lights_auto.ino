@@ -7,10 +7,10 @@
    evitare che sul crepuscolo le luci lampeggino avanti-indietro.
    TODO calibrazione: valori di partenza, da tarare sul campo.
    ============================================================ */
-static const int TH_POSITION_ON  = 500; // sotto questo valore -> luci posizione ON
-static const int TH_POSITION_OFF = 650; // sopra questo -> OFF
-static const int TH_LOWBEAM_ON   = 250; // buio pieno -> anabbaglianti ON
-static const int TH_LOWBEAM_OFF  = 350;
+static const int TH_POSITION_ON  = car.sensPosition-50; // sotto questo valore -> luci posizione ON
+static const int TH_POSITION_OFF = car.sensPosition+100; // sopra questo -> OFF
+static const int TH_LOWBEAM_ON   = car.sensLowBeam-50; // buio pieno -> anabbaglianti ON
+static const int TH_LOWBEAM_OFF  = car.sensLowBeam+100;
 
 static unsigned long lastLightsSample = 0;
 static const unsigned long LIGHTS_SAMPLE_MS = 500;
@@ -19,7 +19,7 @@ void lightsAuto_update() {
   if (millis() - lastLightsSample < LIGHTS_SAMPLE_MS) return;
   lastLightsSample = millis();
 
-  car.ambientLight = analogRead(PIN_LDR_AMBIENT);
+  car.ambientLight = map(analogRead(PIN_LDR_AMBIENT),0,1024,1024,0);
 
   digitalRead(SW_LIGHTS_AUTO_MANUAL) == HIGH ? car.lightsAutoMode = false
                                               : car.lightsAutoMode = true;

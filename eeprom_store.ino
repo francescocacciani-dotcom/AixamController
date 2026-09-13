@@ -43,7 +43,7 @@ void settings_load() {
   car.courtesyDurationMs  = (cs == 0 ? 30 : cs) * 1000UL;
   car.fanAutoMode         = eepromRead(EE_FAN_AUTO);
   car.tempSetpoint        = eepromRead(EE_TEMP_SETPOINT);
-  car.subOn               = eepromRead(EE_SUB_ON);
+  car.subAutoMode         = eepromRead(EE_SUB_ON);
   car.inverterOn          = eepromRead(EE_INVERTER_ON);
 }
 
