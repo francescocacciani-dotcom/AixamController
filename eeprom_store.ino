@@ -15,7 +15,16 @@
 #define EE_FAN_AUTO            4
 #define EE_TEMP_SETPOINT       5
 #define EE_SUB_ON              6
-#define EE_           7
+#define EE_OCCHI_AUTO_ON       7
+
+static const unsigned long SETTINGS_SAVE_DELAY_MS = 15000;
+static int lastSensPosition;
+static int lastSensLowBeam;
+static unsigned long sensPositionChangedAt;
+static unsigned long sensLowBeamChangedAt;
+static bool sensPositionSavePending = false;
+static bool sensLowBeamSavePending = false;
+static bool settingsPersistenceInitialized = false;
 
 void eepromWrite(byte addr, byte value) {
   Wire.beginTransmission(EEPROM_I2C_ADDR);
@@ -37,14 +46,45 @@ byte eepromRead(byte addr) {
 
 void settings_load() {
   car.reprogrammablePush  = eepromRead(EE_REPROGRAMMABLE_PUSH);
-  car.baffiManualOverride = eepromRead(EE_BAFFI_MANUAL);
-  car.ceilingColorIndex   = eepromRead(EE_CEILING_COLOR);
+  car.occhiAutoOn         = eepromRead(EE_OCCHI_AUTO_ON);
+  car.sensPosition        = eepromRead(EE_SENSE_POSITION) * 4; // 0..255 -> 0..1020
+  car.sensLowBeam         = eepromRead(EE_SENSE_LOWBEAM) * 4;   // 0..255 -> 0..1020
   byte cs = eepromRead(EE_COURTESY_DURATION_S);
   car.courtesyDurationMs  = (cs == 0 ? 30 : cs) * 1000UL;
   car.fanAutoMode         = eepromRead(EE_FAN_AUTO);
   car.tempSetpoint        = eepromRead(EE_TEMP_SETPOINT);
   car.subAutoMode         = eepromRead(EE_SUB_ON);
-  car.inverterOn          = eepromRead(EE_INVERTER_ON);
+}
+
+void settings_update() {
+  unsigned long now = millis();
+
+  if (!settingsPersistenceInitialized) {
+    lastSensPosition = car.sensPosition;
+    lastSensLowBeam = car.sensLowBeam;
+    settingsPersistenceInitialized = true;
+    return;
+  }
+
+  if (car.sensPosition != lastSensPosition) {
+    lastSensPosition = car.sensPosition;
+    sensPositionChangedAt = now;
+    sensPositionSavePending = true;
+  } else if (sensPositionSavePending &&
+             now - sensPositionChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_savePositionSense();
+    sensPositionSavePending = false;
+  }
+
+  if (car.sensLowBeam != lastSensLowBeam) {
+    lastSensLowBeam = car.sensLowBeam;
+    sensLowBeamChangedAt = now;
+    sensLowBeamSavePending = true;
+  } else if (sensLowBeamSavePending &&
+             now - sensLowBeamChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_saveLowBeamSense();
+    sensLowBeamSavePending = false;
+  }
 }
 
 void settings_saveCourtesyDuration() {
@@ -56,8 +96,12 @@ void settings_save_reprogrammablePush(){
   eepromWrite(EE_REPROGRAMMABLE_PUSH, car.reprogrammablePush);
 }
 
-void settings_saveLightSense(){
-  
+void settings_savePositionSense(){
+  eepromWrite(EE_SENSE_POSITION, car.sensPosition/4); // 0..1023 -> 0..255
+}
+
+void settings_saveLowBeamSense(){
+  eepromWrite(EE_SENSE_LOWBEAM, car.sensLowBeam/4); // 0..1023 -> 0..255
 }
 
 void settings_saveCeilingColor() {

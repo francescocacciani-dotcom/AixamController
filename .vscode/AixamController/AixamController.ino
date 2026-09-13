@@ -84,7 +84,6 @@ void loop() {
   }
 
   ceilingLight_update(); // disponibile anche a chiave spenta
-  settings_update();
 
   if (millis() - lastPeriodicTasks > PERIODIC_MS) {
     lastPeriodicTasks = millis();

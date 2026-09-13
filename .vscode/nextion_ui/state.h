@@ -47,9 +47,6 @@ struct CarState {
   bool lowBeamOn = false;
   bool highBeamRequested = false; // riservato a futuro modulo camera
   int ambientLight = 0;
-  int  sensPosition = 500;          // LPs - sensibilità luci posizione
-  int  sensLowBeam = 300;           // Ls  - sensibilità anabbaglianti
-  int  sensFog = 300;               // Fs  - sensibilità fendinebbia
 
   // Baffi / specchietti (relè + PWM)
   bool baffiOn = false;
@@ -101,7 +98,9 @@ struct CarState {
   bool lowBeamAuto = true;          // FLa / FLoff
   bool fogLightsOn = false;         // FFon / FFoff
   bool fogLightsAuto = false;       // FFa
-  
+  int  sensPosition = 500;          // LPs - sensibilità luci posizione
+  int  sensLowBeam = 250;           // Ls  - sensibilità anabbaglianti
+  int  sensFog = 300;               // Fs  - sensibilità fendinebbia
   bool mirrorAuto = false;          // FOCOa - occhi/specchietti auto
   bool dashIndicatorsOn = true;     // SpieOn/SpieOff - "spie" quadro
   bool frontFanOn = false;          // FventOn/FventOff - ventole frontali
