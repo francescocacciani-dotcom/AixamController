@@ -1,0 +1,18 @@
+{
+  "port": "COM5",
+  "schemaVersion": 1,
+  "monitorPortSettings": {
+    "port": "COM5",
+    "baudRate": 9600,
+    "lineEnding": "\r\n",
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": "one"
+  },
+  "optimize_for_debug": false,
+  "board": "arduino:avr:mega",
+  "useProgrammer": false,
+  "configurationRequired": true,
+  "compile_profile": "profile-1789339677717",
+  "configuration": "cpu=atmega2560"
+}

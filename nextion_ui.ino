@@ -163,12 +163,10 @@ void nex_LSs(void *ptr) {
 }
 void nex_LSm(void *ptr) {
   car.courtesyDurationMs = constrain((long)car.courtesyDurationMs - 5000, 5000, 120000);
-  settings_saveCourtesyDuration();
   log_write(LOG_INFO, "NEXTION", "Durata cortesia -5s: " + String(car.courtesyDurationMs / 1000) + "s");
 }
 void nex_LSp(void *ptr) {
   car.courtesyDurationMs = constrain((long)car.courtesyDurationMs + 5000, 5000, 120000);
-  settings_saveCourtesyDuration();
   log_write(LOG_INFO, "NEXTION", "Durata cortesia +5s: " + String(car.courtesyDurationMs / 1000) + "s");
 }
 

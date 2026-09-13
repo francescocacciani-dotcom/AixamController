@@ -92,7 +92,6 @@ void climate_readEncoder() {
   if (delta == 0) return;
 
   car.tempSetpoint = constrain(car.tempSetpoint + delta, 10, 30);
-  settings_saveTempSetpoint();
 }
 
 void climate_update() {

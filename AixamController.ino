@@ -80,11 +80,10 @@ void loop() {
     dashboard_update();
     lcdSecondary_update();
     nexLoop(nex_listen_list);
-    
+    settings_update();
   }
 
   ceilingLight_update(); // disponibile anche a chiave spenta
-  settings_update();
 
   if (millis() - lastPeriodicTasks > PERIODIC_MS) {
     lastPeriodicTasks = millis();
