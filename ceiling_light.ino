@@ -18,7 +18,6 @@ void ceilingLight_setColorIndex(uint8_t idx) {
     case 4: car.r = 194; car.g = 0;   car.b = 252; break; // viola
     case 5: car.r = 0;   car.g = 251; car.b = 255; break; // azzurro
   }
-  settings_saveCeilingColor();
   ceilingLight_render();
 }
 

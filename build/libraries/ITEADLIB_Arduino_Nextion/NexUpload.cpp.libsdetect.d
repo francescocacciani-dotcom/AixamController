@@ -1,0 +1,29 @@
+NexUpload.o: \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexUpload.cpp \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexUpload.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Arduino.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/binary.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/WCharacter.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/WString.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/HardwareSerial.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Stream.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Print.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Printable.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/USBAPI.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Arduino.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\variants\mega/pins_arduino.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\libraries\SPI\src/SPI.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/SD.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/utility/SdFat.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/utility/Sd2Card.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/utility/Sd2PinMap.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/utility/SdInfo.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/utility/FatStructs.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Print.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\SD\src/utility/SdFatUtil.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexHardware.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexConfig.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexTouch.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexObject.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\libraries\SoftwareSerial\src/SoftwareSerial.h \
+ C:\Users\franc\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.8\cores\arduino/Stream.h

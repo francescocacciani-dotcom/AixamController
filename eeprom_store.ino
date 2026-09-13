@@ -20,10 +20,28 @@
 static const unsigned long SETTINGS_SAVE_DELAY_MS = 15000;
 static int lastSensPosition;
 static int lastSensLowBeam;
+static unsigned long lastCourtesyDurationMs;
+static uint8_t lastReprogrammablePush;
+static bool lastSubAutoMode;
+static uint8_t lastOcchiAutoOn;
+static bool lastFanAutoMode;
+static int lastTempSetpoint;
 static unsigned long sensPositionChangedAt;
 static unsigned long sensLowBeamChangedAt;
+static unsigned long courtesyDurationChangedAt;
+static unsigned long reprogrammablePushChangedAt;
+static unsigned long subAutoModeChangedAt;
+static unsigned long occhiAutoOnChangedAt;
+static unsigned long fanAutoModeChangedAt;
+static unsigned long tempSetpointChangedAt;
 static bool sensPositionSavePending = false;
 static bool sensLowBeamSavePending = false;
+static bool courtesyDurationSavePending = false;
+static bool reprogrammablePushSavePending = false;
+static bool subAutoModeSavePending = false;
+static bool occhiAutoOnSavePending = false;
+static bool fanAutoModeSavePending = false;
+static bool tempSetpointSavePending = false;
 static bool settingsPersistenceInitialized = false;
 
 void eepromWrite(byte addr, byte value) {
@@ -62,6 +80,12 @@ void settings_update() {
   if (!settingsPersistenceInitialized) {
     lastSensPosition = car.sensPosition;
     lastSensLowBeam = car.sensLowBeam;
+    lastCourtesyDurationMs = car.courtesyDurationMs;
+    lastReprogrammablePush = car.reprogrammablePush;
+    lastSubAutoMode = car.subAutoMode;
+    lastOcchiAutoOn = car.occhiAutoOn;
+    lastFanAutoMode = car.fanAutoMode;
+    lastTempSetpoint = car.tempSetpoint;
     settingsPersistenceInitialized = true;
     return;
   }
@@ -85,6 +109,66 @@ void settings_update() {
     settings_saveLowBeamSense();
     sensLowBeamSavePending = false;
   }
+
+  if (car.courtesyDurationMs != lastCourtesyDurationMs) {
+    lastCourtesyDurationMs = car.courtesyDurationMs;
+    courtesyDurationChangedAt = now;
+    courtesyDurationSavePending = true;
+  } else if (courtesyDurationSavePending &&
+             now - courtesyDurationChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_saveCourtesyDuration();
+    courtesyDurationSavePending = false;
+  }
+
+  if (car.reprogrammablePush != lastReprogrammablePush) {
+    lastReprogrammablePush = car.reprogrammablePush;
+    reprogrammablePushChangedAt = now;
+    reprogrammablePushSavePending = true;
+  } else if (reprogrammablePushSavePending &&
+             now - reprogrammablePushChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_save_reprogrammablePush();
+    reprogrammablePushSavePending = false;
+  }
+
+  if (car.subAutoMode != lastSubAutoMode) {
+    lastSubAutoMode = car.subAutoMode;
+    subAutoModeChangedAt = now;
+    subAutoModeSavePending = true;
+  } else if (subAutoModeSavePending &&
+             now - subAutoModeChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_saveSubAuto();
+    subAutoModeSavePending = false;
+  }
+
+  if (car.occhiAutoOn != lastOcchiAutoOn) {
+    lastOcchiAutoOn = car.occhiAutoOn;
+    occhiAutoOnChangedAt = now;
+    occhiAutoOnSavePending = true;
+  } else if (occhiAutoOnSavePending &&
+             now - occhiAutoOnChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_saveOcchiAuto();
+    occhiAutoOnSavePending = false;
+  }
+
+  if (car.fanAutoMode != lastFanAutoMode) {
+    lastFanAutoMode = car.fanAutoMode;
+    fanAutoModeChangedAt = now;
+    fanAutoModeSavePending = true;
+  } else if (fanAutoModeSavePending &&
+             now - fanAutoModeChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_saveFanAuto();
+    fanAutoModeSavePending = false;
+  }
+
+  if (car.tempSetpoint != lastTempSetpoint) {
+    lastTempSetpoint = car.tempSetpoint;
+    tempSetpointChangedAt = now;
+    tempSetpointSavePending = true;
+  } else if (tempSetpointSavePending &&
+             now - tempSetpointChangedAt >= SETTINGS_SAVE_DELAY_MS) {
+    settings_saveTempSetpoint();
+    tempSetpointSavePending = false;
+  }
 }
 
 void settings_saveCourtesyDuration() {
@@ -104,12 +188,12 @@ void settings_saveLowBeamSense(){
   eepromWrite(EE_SENSE_LOWBEAM, car.sensLowBeam/4); // 0..1023 -> 0..255
 }
 
-void settings_saveCeilingColor() {
-  eepromWrite(EE_CEILING_COLOR, car.ceilingColorIndex);
+void settings_saveSubAuto() {
+  eepromWrite(EE_SUB_ON, car.subAutoMode);
 }
 
-void settings_saveLightsAuto() {
-  eepromWrite(EE_LIGHTS_AUTO, car.lightsAutoMode);
+void settings_saveOcchiAuto() {
+  eepromWrite(EE_OCCHI_AUTO_ON, car.occhiAutoOn);
 }
 
 void settings_saveFanAuto() {

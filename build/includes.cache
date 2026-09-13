@@ -1,0 +1,2521 @@
+[
+  {
+    "added_include_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino"
+  },
+  {
+    "added_include_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Wire.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Nextion.h"
+  },
+  {
+    "added_include_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Adafruit_NeoPixel.h"
+  },
+  {
+    "added_include_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "TinyDHT.h"
+  },
+  {
+    "added_include_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "LiquidCrystal_I2C.h"
+  },
+  {
+    "added_include_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SPI.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SD.h"
+  },
+  {
+    "added_include_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src"
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\Wire.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\Wire.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\utility\\twi.c",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\utility\\twi.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "SoftwareSerial.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src"
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\Adafruit_NeoPixel.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\Adafruit_NeoPixel.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\Adafruit_NeoPixel.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\Adafruit_NeoPixel.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\Adafruit_Neopixel_RP2.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\Adafruit_Neopixel_RP2.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\Adafruit_Neopixel_RP2.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\Adafruit_Neopixel_RP2.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\esp.c",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\esp.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\esp.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\esp.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\esp8266.c",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\esp8266.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\esp8266.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\esp8266.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\kendyte_k210.c",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\kendyte_k210.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\kendyte_k210.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\kendyte_k210.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\psoc6.c",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\psoc6.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel\\psoc6.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\Adafruit_NeoPixel\\psoc6.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library\\TinyDHT.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\TinyDHT_sensor_library\\TinyDHT.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library\\TinyDHT.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\TinyDHT_sensor_library\\TinyDHT.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2\\LiquidCrystal_I2C.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\LiquidCrystal_I2C-1.1.2\\LiquidCrystal_I2C.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2\\LiquidCrystal_I2C.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\LiquidCrystal_I2C-1.1.2\\LiquidCrystal_I2C.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src\\SPI.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src\\SPI.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\File.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\File.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\File.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\File.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\SD.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\SD.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\SD.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\SD.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\utility\\Sd2Card.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\utility\\Sd2Card.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\utility\\Sd2Card.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\utility\\Sd2Card.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\utility\\SdFile.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\utility\\SdFile.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\utility\\SdFile.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\utility\\SdFile.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\utility\\SdVolume.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\utility\\SdVolume.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src\\utility\\SdVolume.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SD\\utility\\SdVolume.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega2560",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_MEGA2560",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
