@@ -227,8 +227,13 @@ void readBatteryVoltage() {
 void applyOutputs() {
   digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? LOW : HIGH);
   digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
-  digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
-  digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
+  if(car.lightsAutoMode){
+    digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
+    digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
+  }else{
+    digitalWrite(RELAY_ANABBAGLIANTI, HIGH);
+    digitalWrite(RELAY_POSIZIONI, HIGH);
+  }
 
   digitalWrite(RELAY_SUB, car.subOn ? LOW : HIGH);
   digitalWrite(RELAY_INVERTER, car.inverterOn ? LOW : HIGH);
