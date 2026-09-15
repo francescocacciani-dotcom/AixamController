@@ -62,6 +62,14 @@ void settings_load() {
   car.fanAutoMode         = eepromRead(EE_FAN_AUTO);
   car.tempSetpoint        = eepromRead(EE_TEMP_SETPOINT);
   car.subAutoMode         = eepromRead(EE_SUB_ON);
+  log_write(LOG_INFO, "EEPROM", "Settings loaded: reprogrammablePush=" + String(car.reprogrammablePush) +
+            ", occhiAutoOn=" + String(car.occhiAutoOn) +
+            ", sensPosition=" + String(car.sensPosition) +
+            ", sensLowBeam=" + String(car.sensLowBeam) +
+            ", courtesyDurationMs=" + String(car.courtesyDurationMs) +
+            ", fanAutoMode=" + String(car.fanAutoMode) +
+            ", tempSetpoint=" + String(car.tempSetpoint) +
+            ", subAutoMode=" + String(car.subAutoMode));
 }
 
 void settings_update() {
@@ -164,32 +172,40 @@ void settings_update() {
 void settings_saveCourtesyDuration() {
   byte s = (byte)constrain(car.courtesyDurationMs / 1000UL, 5, 255);
   eepromWrite(EE_COURTESY_DURATION_S, s);
+  log_write(LOG_INFO, "EEPROM", "Valore cortesia salvato: " + String(s) + "s");
 }
 
 void settings_save_reprogrammablePush(){
   eepromWrite(EE_REPROGRAMMABLE_PUSH, car.reprogrammablePush);
+  log_write(LOG_INFO, "EEPROM", "Valore push riprogrammabile salvato: " + String(car.reprogrammablePush));
 }
 
 void settings_savePositionSense(){
   eepromWrite(EE_SENSE_POSITION, car.sensPosition/4); // 0..1023 -> 0..255
+  log_write(LOG_INFO, "EEPROM", "Valore sensibilità luci posizione salvato: " + String(car.sensPosition));
 }
 
 void settings_saveLowBeamSense(){
   eepromWrite(EE_SENSE_LOWBEAM, car.sensLowBeam/4); // 0..1023 -> 0..255
+  log_write(LOG_INFO, "EEPROM", "Valore sensibilità luci bassa potenza salvato: " + String(car.sensLowBeam));
 }
 
 void settings_saveSubAuto() {
   eepromWrite(EE_SUB_ON, car.subAutoMode);
+  log_write(LOG_INFO, "EEPROM", "Valore modalità sottomissione salvato: " + String(car.subAutoMode));
 }
 
 void settings_saveOcchiAuto() {
   eepromWrite(EE_OCCHI_AUTO_ON, car.occhiAutoOn);
+  log_write(LOG_INFO, "EEPROM", "Valore occhi automatici salvato: " + String(car.occhiAutoOn));
 }
 
 void settings_saveFanAuto() {
   eepromWrite(EE_FAN_AUTO, car.fanAutoMode);
+  log_write(LOG_INFO, "EEPROM", "Valore modalità ventola salvato: " + String(car.fanAutoMode));
 }
 
 void settings_saveTempSetpoint() {
   eepromWrite(EE_TEMP_SETPOINT, (byte)car.tempSetpoint);
+  log_write(LOG_INFO, "EEPROM", "Valore setpoint temperatura salvato: " + String(car.tempSetpoint));
 }
