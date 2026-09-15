@@ -1,0 +1,54 @@
+AixamController.ino.cpp.o: \
+ c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\AixamController.ino.cpp.merged \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Arduino.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/binary.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/WCharacter.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/WString.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/HardwareSerial.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Stream.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Print.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Printable.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/USBAPI.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Arduino.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\variants\mega/pins_arduino.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\libraries\Wire\src/Wire.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Stream.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/Nextion.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexConfig.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexTouch.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexObject.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexHardware.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexButton.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexCrop.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexGauge.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexHotspot.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexPage.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexPicture.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexProgressBar.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexSlider.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexText.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexWaveform.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexTimer.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexNumber.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexDualStateButton.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexVariable.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexCheckbox.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexRadio.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexScrolltext.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexGpio.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexRtc.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\config.h \
+ c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\state.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\TinyDHT\ sensor\ library/TinyDHT.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\libraries\EEPROM\src/EEPROM.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\LiquidCrystal_I2C_1.1.2_940b959dacb977c8\LiquidCrystal\ I2C/LiquidCrystal_I2C.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Print.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\libraries\SPI\src/SPI.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/SD.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/utility/SdFat.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/utility/Sd2Card.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/utility/Sd2PinMap.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/utility/SdInfo.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/utility/FatStructs.h \
+ C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src/utility/SdFatUtil.h

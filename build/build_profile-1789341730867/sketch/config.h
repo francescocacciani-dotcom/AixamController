@@ -1,3 +1,4 @@
+#line 1 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\config.h"
 #ifndef CONFIG_H
 #define CONFIG_H
 #include <Arduino.h>

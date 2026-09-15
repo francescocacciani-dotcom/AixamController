@@ -1,9 +1,9 @@
-#include <Wire.h>
+#include <EEPROM.h>
 #include "config.h"
 #include "state.h"
 
 /* ============================================================
-   Layout EEPROM (24LC-style, address map). Un indirizzo per
+    Layout EEPROM interna, address map. Un indirizzo per
    ogni impostazione persistente: aggiungerne di nuove = aggiungere
    una riga qui, MAI riordinare quelle esistenti (rompe i profili
    già salvati).
@@ -45,21 +45,11 @@ static bool tempSetpointSavePending = false;
 static bool settingsPersistenceInitialized = false;
 
 void eepromWrite(byte addr, byte value) {
-  Wire.beginTransmission(EEPROM_I2C_ADDR);
-  Wire.write(addr);
-  Wire.write(value);
-  Wire.endTransmission();
-  delay(5); // tempo di scrittura pagina, da datasheet
+  EEPROM.update(addr, value);
 }
 
 byte eepromRead(byte addr) {
-  Wire.beginTransmission(EEPROM_I2C_ADDR);
-  Wire.write(addr);
-  Wire.endTransmission();
-  delay(5);
-  Wire.requestFrom((int)EEPROM_I2C_ADDR, 1);
-  if (Wire.available()) return Wire.read();
-  return 0;
+  return EEPROM.read(addr);
 }
 
 void settings_load() {

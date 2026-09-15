@@ -1,3 +1,4 @@
+#line 1 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\.vscode\\eeprom_store\\config.h"
 #ifndef CONFIG_H
 #define CONFIG_H
 #include <Arduino.h>
@@ -12,7 +13,7 @@
    18,19 = encoder rotativo (CLK/DT), scelti qui apposta perché
            sono tra i pochi pin con interrupt hardware sul Mega
            (gli altri sono 2,3,20,21, tutti già occupati)
-   20,21 = I2C SDA/SCL (LCD I2C)
+   20,21 = I2C SDA/SCL (EEPROM esterna 0x50 + LCD I2C)
    ============================================================ */
 
 // ---------- Wake / ignition (via optoisolatore consigliato) ----------
@@ -94,7 +95,8 @@
 #define PIN_BATTERY_VOLTAGE   A1   // partitore tensione batteria
 #define PIN_LDR_AMBIENT       A2   // fotoresistenza per anabbaglianti/posizione automatici
 
-// ---------- I2C LCD ----------
+// ---------- I2C ----------
+#define EEPROM_I2C_ADDR       0x50
 #define LCD_I2C_ADDR          0x27
 #define LCD_COLS              20
 #define LCD_ROWS              4
