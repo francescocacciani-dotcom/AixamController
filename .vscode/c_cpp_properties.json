@@ -5,6 +5,7 @@
       "includePath": [
         "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries/**",
         "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController/**",
+<<<<<<< HEAD
         "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\cores\\arduino/**",
         "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\variants\\mega/**",
         "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel/**",
@@ -23,6 +24,25 @@
       "compilerPath": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
       "compilerArgs": [
         "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr-gcc_7.3.0-atmel3.6.1-arduino7_fc423089e09cfcab/bin/avr-g++",
+=======
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino/**",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega/**",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src/**",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion/**",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel/**",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library/**",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2/**",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src/**",
+        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src/**",
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src/**"
+      ],
+      "forcedInclude": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino\\Arduino.h"
+      ],
+      "compilerPath": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+      "compilerArgs": [
+        "C:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+>>>>>>> 353e607e170ea445b2f89a84c2f7065019796c19
         "-c",
         "-g",
         "-Os",
@@ -41,6 +61,7 @@
         "-DARDUINO=10607",
         "-DARDUINO_AVR_MEGA2560",
         "-DARDUINO_ARCH_AVR",
+<<<<<<< HEAD
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\cores\\arduino",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\variants\\mega",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel",
@@ -55,6 +76,21 @@
         "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp",
         "-o",
         "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.o"
+=======
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\mega",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\Adafruit_NeoPixel",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\TinyDHT_sensor_library",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\LiquidCrystal_I2C-1.1.2",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SPI\\src",
+        "-Ic:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\SD\\src",
+        "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\SoftwareSerial\\src",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp",
+        "-o",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\sketch\\AixamController.ino.cpp.o"
+>>>>>>> 353e607e170ea445b2f89a84c2f7065019796c19
       ],
       "defines": [
         "F_CPU=16000000L",
