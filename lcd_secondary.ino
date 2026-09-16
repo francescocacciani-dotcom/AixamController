@@ -12,6 +12,7 @@ void lcdSecondary_setup() {
   lcd.init();
   lcd.backlight();
   pinMode(BTN_LCD_MODE, INPUT_PULLUP);
+  lcd.noBacklight();
 }
 
 void lcdSecondary_nextPage() {

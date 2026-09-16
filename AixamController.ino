@@ -234,7 +234,7 @@ void readBatteryVoltage() {
 void applyOutputs() {
   digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? LOW : HIGH);
   digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
-  if(car.lightsAutoMode && car.engineRunning){
+  if(car.lightsAutoMode && car.engineRunning && car.ignitionOn){// TODO aggiungere cortesia agli anabbaglianti quando si accendono
     digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
     digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
   }else{
