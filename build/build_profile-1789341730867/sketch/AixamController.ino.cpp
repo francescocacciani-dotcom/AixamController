@@ -24,17 +24,19 @@ static const unsigned long PERIODIC_MS = 500;
 void setup();
 #line 64 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void loop();
-#line 100 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 101 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleIgnitionEdge();
-#line 136 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 129 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+void handle_runningEngine();
+#line 143 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleDoorSense();
-#line 162 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 169 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleBaffiButton();
-#line 179 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 186 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleLockButton();
-#line 187 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 194 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void readBatteryVoltage();
-#line 227 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 234 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void applyOutputs();
 #line 17 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\ble_link.ino"
 void bleLink_update();
@@ -86,23 +88,23 @@ void eepromWrite(byte addr, byte value);
 byte eepromRead(byte addr);
 #line 55 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_load();
-#line 67 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+#line 75 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_update();
-#line 164 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+#line 172 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_saveCourtesyDuration();
-#line 169 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+#line 178 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_save_reprogrammablePush();
-#line 173 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+#line 183 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_savePositionSense();
-#line 177 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+#line 188 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_saveLowBeamSense();
-#line 181 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
-void settings_saveSubAuto();
-#line 185 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
-void settings_saveOcchiAuto();
-#line 189 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
-void settings_saveFanAuto();
 #line 193 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+void settings_saveSubAuto();
+#line 198 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+void settings_saveOcchiAuto();
+#line 203 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
+void settings_saveFanAuto();
+#line 208 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\eeprom_store.ino"
 void settings_saveTempSetpoint();
 #line 11 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
 void lcdSecondary_setup();
@@ -290,6 +292,7 @@ void loop() {
     lcdSecondary_update();
     nexLoop(nex_listen_list);
     settings_update();
+    handle_runningEngine();
   }
 
   ceilingLight_update(); // disponibile anche a chiave spenta
@@ -314,16 +317,12 @@ void handleIgnitionEdge() {
     car.powerAccessories = true;
     car.powerFrontCar = true;
     if(car.subAutoMode){ car.subOn=true; }
-    if(car.occhiAutoOn = 1){ car.occhiOn = true; }
+    if(car.occhiAutoOn == 1){ car.occhiOn = true; }
   } else if (!car.ignitionOn && car.lastIgnitionOn) {
     log_write(LOG_INFO, "IGN", "Chiave OFF - spengo tutti gli accessori");
     lcdSecondary_sleep();
     lightsAuto_sleep();
-    // Bug corretto: prima restavano accesi sub/inverter/specchietti/ventole
-    // frontali con l'ultimo stato impostato da Nextion, anche a chiave
-    // spenta. La luce interna a soffitto resta ESCLUSA di proposito
-    // (funzione tipo luce di cortesia, deve restare comandabile anche
-    // a chiave spenta), tutto il resto si spegne.
+
     car.powerAccessories = false;
     car.powerFrontCar = false;
 
@@ -336,6 +335,16 @@ void handleIgnitionEdge() {
     car.frontFanOn = false;
   }
   car.lastIgnitionOn = car.ignitionOn;
+}
+
+void handle_runningEngine() {
+  if (car.engineRunning && !car.lastEngineRunning) {
+    log_write(LOG_INFO, "ENG", "Motore acceso");
+    if(car.occhiAutoOn == 2){ car.occhiOn = true; }
+  } else if (!car.engineRunning && car.lastEngineRunning) {
+    log_write(LOG_INFO, "ENG", "Motore spento");
+  }
+  car.lastEngineRunning = car.engineRunning;
 }
 
 static unsigned long doorLastChangeMs = 0;
@@ -946,6 +955,14 @@ void settings_load() {
   car.fanAutoMode         = eepromRead(EE_FAN_AUTO);
   car.tempSetpoint        = eepromRead(EE_TEMP_SETPOINT);
   car.subAutoMode         = eepromRead(EE_SUB_ON);
+  log_write(LOG_INFO, "EEPROM", "Settings loaded: reprogrammablePush=" + String(car.reprogrammablePush) +
+            ", occhiAutoOn=" + String(car.occhiAutoOn) +
+            ", sensPosition=" + String(car.sensPosition) +
+            ", sensLowBeam=" + String(car.sensLowBeam) +
+            ", courtesyDurationMs=" + String(car.courtesyDurationMs) +
+            ", fanAutoMode=" + String(car.fanAutoMode) +
+            ", tempSetpoint=" + String(car.tempSetpoint) +
+            ", subAutoMode=" + String(car.subAutoMode));
 }
 
 void settings_update() {
@@ -1048,34 +1065,42 @@ void settings_update() {
 void settings_saveCourtesyDuration() {
   byte s = (byte)constrain(car.courtesyDurationMs / 1000UL, 5, 255);
   eepromWrite(EE_COURTESY_DURATION_S, s);
+  log_write(LOG_INFO, "EEPROM", "Valore cortesia salvato: " + String(s) + "s");
 }
 
 void settings_save_reprogrammablePush(){
   eepromWrite(EE_REPROGRAMMABLE_PUSH, car.reprogrammablePush);
+  log_write(LOG_INFO, "EEPROM", "Valore push riprogrammabile salvato: " + String(car.reprogrammablePush));
 }
 
 void settings_savePositionSense(){
   eepromWrite(EE_SENSE_POSITION, car.sensPosition/4); // 0..1023 -> 0..255
+  log_write(LOG_INFO, "EEPROM", "Valore sensibilità luci posizione salvato: " + String(car.sensPosition));
 }
 
 void settings_saveLowBeamSense(){
   eepromWrite(EE_SENSE_LOWBEAM, car.sensLowBeam/4); // 0..1023 -> 0..255
+  log_write(LOG_INFO, "EEPROM", "Valore sensibilità luci bassa potenza salvato: " + String(car.sensLowBeam));
 }
 
 void settings_saveSubAuto() {
   eepromWrite(EE_SUB_ON, car.subAutoMode);
+  log_write(LOG_INFO, "EEPROM", "Valore modalità sottomissione salvato: " + String(car.subAutoMode));
 }
 
 void settings_saveOcchiAuto() {
   eepromWrite(EE_OCCHI_AUTO_ON, car.occhiAutoOn);
+  log_write(LOG_INFO, "EEPROM", "Valore occhi automatici salvato: " + String(car.occhiAutoOn));
 }
 
 void settings_saveFanAuto() {
   eepromWrite(EE_FAN_AUTO, car.fanAutoMode);
+  log_write(LOG_INFO, "EEPROM", "Valore modalità ventola salvato: " + String(car.fanAutoMode));
 }
 
 void settings_saveTempSetpoint() {
   eepromWrite(EE_TEMP_SETPOINT, (byte)car.tempSetpoint);
+  log_write(LOG_INFO, "EEPROM", "Valore setpoint temperatura salvato: " + String(car.tempSetpoint));
 }
 
 #line 1 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"

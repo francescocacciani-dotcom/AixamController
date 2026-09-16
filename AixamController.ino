@@ -81,6 +81,7 @@ void loop() {
     lcdSecondary_update();
     nexLoop(nex_listen_list);
     settings_update();
+    handle_runningEngine();
   }
 
   ceilingLight_update(); // disponibile anche a chiave spenta
@@ -105,16 +106,12 @@ void handleIgnitionEdge() {
     car.powerAccessories = true;
     car.powerFrontCar = true;
     if(car.subAutoMode){ car.subOn=true; }
-    if(car.occhiAutoOn = 1){ car.occhiOn = true; }
+    if(car.occhiAutoOn == 1){ car.occhiOn = true; }
   } else if (!car.ignitionOn && car.lastIgnitionOn) {
     log_write(LOG_INFO, "IGN", "Chiave OFF - spengo tutti gli accessori");
     lcdSecondary_sleep();
     lightsAuto_sleep();
-    // Bug corretto: prima restavano accesi sub/inverter/specchietti/ventole
-    // frontali con l'ultimo stato impostato da Nextion, anche a chiave
-    // spenta. La luce interna a soffitto resta ESCLUSA di proposito
-    // (funzione tipo luce di cortesia, deve restare comandabile anche
-    // a chiave spenta), tutto il resto si spegne.
+
     car.powerAccessories = false;
     car.powerFrontCar = false;
 
@@ -127,6 +124,16 @@ void handleIgnitionEdge() {
     car.frontFanOn = false;
   }
   car.lastIgnitionOn = car.ignitionOn;
+}
+
+void handle_runningEngine() {
+  if (car.engineRunning && !car.lastEngineRunning) {
+    log_write(LOG_INFO, "ENG", "Motore acceso");
+    if(car.occhiAutoOn == 2){ car.occhiOn = true; }
+  } else if (!car.engineRunning && car.lastEngineRunning) {
+    log_write(LOG_INFO, "ENG", "Motore spento");
+  }
+  car.lastEngineRunning = car.engineRunning;
 }
 
 static unsigned long doorLastChangeMs = 0;
@@ -227,7 +234,7 @@ void readBatteryVoltage() {
 void applyOutputs() {
   digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? LOW : HIGH);
   digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
-  if(car.lightsAutoMode){
+  if(car.lightsAutoMode && car.engineRunning){
     digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
     digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
   }else{

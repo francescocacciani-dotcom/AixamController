@@ -1,4 +1,4 @@
-c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\ITEADLIB_Arduino_Nextion\NexProgressBar.cpp.o: \
+C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\ITEADLIB_Arduino_Nextion\NexProgressBar.cpp.o: \
  C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexProgressBar.cpp \
  C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexProgressBar.h \
  C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion\NexTouch.h \

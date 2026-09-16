@@ -1,4 +1,4 @@
-c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\SD\utility\Sd2Card.cpp.o: \
+C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\SD\utility\Sd2Card.cpp.o: \
  C:\Users\franc\AppData\Local\Arduino15\internal\SD_1.3.0_747b208849081a93\SD\src\utility\Sd2Card.cpp \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Arduino.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/binary.h \

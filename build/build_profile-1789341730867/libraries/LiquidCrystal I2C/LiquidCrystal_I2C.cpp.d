@@ -1,4 +1,4 @@
-c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\LiquidCrystal\ I2C\LiquidCrystal_I2C.cpp.o: \
+C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\LiquidCrystal\ I2C\LiquidCrystal_I2C.cpp.o: \
  C:\Users\franc\AppData\Local\Arduino15\internal\LiquidCrystal_I2C_1.1.2_940b959dacb977c8\LiquidCrystal\ I2C\LiquidCrystal_I2C.cpp \
  C:\Users\franc\AppData\Local\Arduino15\internal\LiquidCrystal_I2C_1.1.2_940b959dacb977c8\LiquidCrystal\ I2C\LiquidCrystal_I2C.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Print.h \

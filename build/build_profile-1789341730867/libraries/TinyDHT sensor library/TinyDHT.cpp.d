@@ -1,4 +1,4 @@
-c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\TinyDHT\ sensor\ library\TinyDHT.cpp.o: \
+C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\libraries\TinyDHT\ sensor\ library\TinyDHT.cpp.o: \
  C:\Users\franc\AppData\Local\Arduino15\internal\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\TinyDHT\ sensor\ library\TinyDHT.cpp \
  C:\Users\franc\AppData\Local\Arduino15\internal\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\TinyDHT\ sensor\ library\TinyDHT.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Arduino.h \

@@ -14,5 +14,6 @@
   "useProgrammer": false,
   "configurationRequired": true,
   "compile_profile": "profile-1789341730867",
-  "configuration": "cpu=atmega2560"
+  "configuration": "cpu=atmega2560",
+  "programmer": "arduinoasisp"
 }

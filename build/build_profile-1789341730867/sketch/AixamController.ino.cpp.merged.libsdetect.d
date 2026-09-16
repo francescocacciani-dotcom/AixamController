@@ -1,5 +1,5 @@
 AixamController.ino.cpp.o: \
- c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\AixamController.ino.cpp.merged \
+ C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\AixamController.ino.cpp.merged \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/Arduino.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/binary.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\cores\arduino/WCharacter.h \
@@ -37,8 +37,8 @@ AixamController.ino.cpp.o: \
  C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexScrolltext.h \
  C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexGpio.h \
  C:\Users\franc\OneDrive\Documenti\Arduino\libraries\ITEADLIB_Arduino_Nextion/NexRtc.h \
- c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\config.h \
- c:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\state.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\config.h \
+ C:\Users\franc\OneDrive\Documenti\Arduino\AixamController\build\build_profile-1789341730867\sketch\state.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\Adafruit\ NeoPixel/Adafruit_NeoPixel.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\TinyDHT\ sensor\ library/TinyDHT.h \
  C:\Users\franc\AppData\Local\Arduino15\internal\arduino_avr_1.8.8_a345a73f10f468fe\libraries\EEPROM\src/EEPROM.h \

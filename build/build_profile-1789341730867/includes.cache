@@ -22,8 +22,8 @@
   },
   {
     "compile": {
-      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -57,12 +57,12 @@
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\LiquidCrystal_I2C_1.1.2_940b959dacb977c8\\LiquidCrystal I2C",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\\TinyDHT sensor library",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
         "-o",
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -74,8 +74,8 @@
   },
   {
     "compile": {
-      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -110,12 +110,12 @@
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\\TinyDHT sensor library",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\Wire\\src",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
         "-o",
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -127,8 +127,8 @@
   },
   {
     "compile": {
-      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -164,12 +164,12 @@
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\\TinyDHT sensor library",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\Wire\\src",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\EEPROM\\src",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
         "-o",
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -181,8 +181,8 @@
   },
   {
     "compile": {
-      "source_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+      "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -219,12 +219,12 @@
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\Wire\\src",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\EEPROM\\src",
         "-IC:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\SPI\\src",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged",
         "-o",
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\sketch\\AixamController.ino.cpp.merged.libsdetect.d"
       ]
     }
   },
@@ -234,7 +234,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\Wire\\src\\Wire.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\Wire.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -276,7 +276,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\Wire.cpp.libsdetect.d"
       ]
     }
   },
@@ -286,7 +286,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\Wire\\src\\utility\\twi.c",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -328,7 +328,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
       ]
     }
   },
@@ -338,7 +338,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\SPI\\src\\SPI.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SPI\\SPI.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -380,7 +380,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SPI\\SPI.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SPI\\SPI.cpp.libsdetect.d"
       ]
     }
   },
@@ -390,7 +390,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -432,7 +432,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexButton.cpp.libsdetect.d"
       ]
     }
   },
@@ -442,7 +442,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -484,7 +484,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCheckbox.cpp.libsdetect.d"
       ]
     }
   },
@@ -494,7 +494,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -536,7 +536,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexCrop.cpp.libsdetect.d"
       ]
     }
   },
@@ -546,7 +546,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -588,7 +588,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexDualStateButton.cpp.libsdetect.d"
       ]
     }
   },
@@ -598,7 +598,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -640,7 +640,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGauge.cpp.libsdetect.d"
       ]
     }
   },
@@ -650,7 +650,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -692,7 +692,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexGpio.cpp.libsdetect.d"
       ]
     }
   },
@@ -702,7 +702,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -744,7 +744,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHardware.cpp.libsdetect.d"
       ]
     }
   },
@@ -754,7 +754,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -796,7 +796,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexHotspot.cpp.libsdetect.d"
       ]
     }
   },
@@ -806,7 +806,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -848,7 +848,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexNumber.cpp.libsdetect.d"
       ]
     }
   },
@@ -858,7 +858,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -900,7 +900,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexObject.cpp.libsdetect.d"
       ]
     }
   },
@@ -910,7 +910,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -952,7 +952,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPage.cpp.libsdetect.d"
       ]
     }
   },
@@ -962,7 +962,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1004,7 +1004,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexPicture.cpp.libsdetect.d"
       ]
     }
   },
@@ -1014,7 +1014,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1056,7 +1056,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexProgressBar.cpp.libsdetect.d"
       ]
     }
   },
@@ -1066,7 +1066,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1108,7 +1108,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRadio.cpp.libsdetect.d"
       ]
     }
   },
@@ -1118,7 +1118,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1160,7 +1160,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexRtc.cpp.libsdetect.d"
       ]
     }
   },
@@ -1170,7 +1170,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1212,7 +1212,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexScrolltext.cpp.libsdetect.d"
       ]
     }
   },
@@ -1222,7 +1222,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1264,7 +1264,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexSlider.cpp.libsdetect.d"
       ]
     }
   },
@@ -1274,7 +1274,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1316,7 +1316,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexText.cpp.libsdetect.d"
       ]
     }
   },
@@ -1326,7 +1326,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1368,7 +1368,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTimer.cpp.libsdetect.d"
       ]
     }
   },
@@ -1378,7 +1378,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1420,7 +1420,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexTouch.cpp.libsdetect.d"
       ]
     }
   },
@@ -1430,7 +1430,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1472,7 +1472,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
       ]
     }
   },
@@ -1485,7 +1485,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1528,7 +1528,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexUpload.cpp.libsdetect.d"
       ]
     }
   },
@@ -1538,7 +1538,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1581,7 +1581,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexVariable.cpp.libsdetect.d"
       ]
     }
   },
@@ -1591,7 +1591,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1634,7 +1634,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\ITEADLIB_Arduino_Nextion\\NexWaveform.cpp.libsdetect.d"
       ]
     }
   },
@@ -1644,7 +1644,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel\\Adafruit_NeoPixel.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_NeoPixel.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_NeoPixel.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1687,7 +1687,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_NeoPixel.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_NeoPixel.cpp.libsdetect.d"
       ]
     }
   },
@@ -1697,7 +1697,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel\\Adafruit_Neopixel_RP2.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_Neopixel_RP2.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_Neopixel_RP2.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1740,7 +1740,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_Neopixel_RP2.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\Adafruit_Neopixel_RP2.cpp.libsdetect.d"
       ]
     }
   },
@@ -1750,7 +1750,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel\\esp.c",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp.c.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1793,7 +1793,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp.c.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp.c.libsdetect.d"
       ]
     }
   },
@@ -1803,7 +1803,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel\\esp8266.c",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp8266.c.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp8266.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1846,7 +1846,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp8266.c.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\esp8266.c.libsdetect.d"
       ]
     }
   },
@@ -1856,7 +1856,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel\\kendyte_k210.c",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\kendyte_k210.c.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\kendyte_k210.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1899,7 +1899,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\kendyte_k210.c.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\kendyte_k210.c.libsdetect.d"
       ]
     }
   },
@@ -1909,7 +1909,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\Adafruit_NeoPixel_1.15.5_32a75fce2b4fe8ac\\Adafruit NeoPixel\\psoc6.c",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\psoc6.c.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\psoc6.c.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -1952,7 +1952,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\psoc6.c.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\Adafruit NeoPixel\\psoc6.c.libsdetect.d"
       ]
     }
   },
@@ -1962,7 +1962,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\TinyDHT_sensor_library_1.1.2_9ea2390ff2b37e7a\\TinyDHT sensor library\\TinyDHT.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\TinyDHT sensor library\\TinyDHT.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\TinyDHT sensor library\\TinyDHT.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2005,7 +2005,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\TinyDHT sensor library\\TinyDHT.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\TinyDHT sensor library\\TinyDHT.cpp.libsdetect.d"
       ]
     }
   },
@@ -2015,7 +2015,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\LiquidCrystal_I2C_1.1.2_940b959dacb977c8\\LiquidCrystal I2C\\LiquidCrystal_I2C.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\LiquidCrystal I2C\\LiquidCrystal_I2C.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\LiquidCrystal I2C\\LiquidCrystal_I2C.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2058,7 +2058,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\LiquidCrystal I2C\\LiquidCrystal_I2C.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\LiquidCrystal I2C\\LiquidCrystal_I2C.cpp.libsdetect.d"
       ]
     }
   },
@@ -2068,7 +2068,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src\\File.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\File.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\File.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2111,7 +2111,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\File.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\File.cpp.libsdetect.d"
       ]
     }
   },
@@ -2121,7 +2121,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src\\SD.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\SD.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\SD.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2164,7 +2164,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\SD.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\SD.cpp.libsdetect.d"
       ]
     }
   },
@@ -2174,7 +2174,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src\\utility\\Sd2Card.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\Sd2Card.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\Sd2Card.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2217,7 +2217,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\Sd2Card.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\Sd2Card.cpp.libsdetect.d"
       ]
     }
   },
@@ -2227,7 +2227,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src\\utility\\SdFile.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdFile.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdFile.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2270,7 +2270,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdFile.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdFile.cpp.libsdetect.d"
       ]
     }
   },
@@ -2280,7 +2280,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\SD_1.3.0_747b208849081a93\\SD\\src\\utility\\SdVolume.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdVolume.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdVolume.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2323,7 +2323,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdVolume.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SD\\utility\\SdVolume.cpp.libsdetect.d"
       ]
     }
   },
@@ -2333,7 +2333,7 @@
   {
     "compile": {
       "source_path": "C:\\Users\\franc\\AppData\\Local\\Arduino15\\internal\\arduino_avr_1.8.8_a345a73f10f468fe\\libraries\\SoftwareSerial\\src\\SoftwareSerial.cpp",
-      "depfile_path": "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
+      "depfile_path": "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
     },
     "compile_task": {
       "args": [
@@ -2376,7 +2376,7 @@
         "nul",
         "-MMD",
         "-MF",
-        "c:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
+        "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\build\\build_profile-1789341730867\\libraries\\SoftwareSerial\\SoftwareSerial.cpp.libsdetect.d"
       ]
     }
   },
