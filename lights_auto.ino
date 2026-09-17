@@ -14,6 +14,48 @@ static const int TH_LOWBEAM_OFF  = car.sensLowBeam+100;
 
 static unsigned long lastLightsSample = 0;
 static const unsigned long LIGHTS_SAMPLE_MS = 500;
+static const unsigned long LOW_BEAM_OFF_DELAY_MS = 5000;
+static const unsigned long LOW_BEAM_FADE_STEP_MS = 20;
+static const uint8_t LOW_BEAM_FADE_STEP = 5;
+static uint8_t lowBeamBrightness = 0;
+static unsigned long lowBeamFadeChangedAt = 0;
+static unsigned long lowBeamOffRequestedAt = 0;
+static bool lowBeamOffDelayActive = false;
+
+void lowBeamFade_update() {
+  unsigned long now = millis();
+  bool requestedOn = car.lightsAutoMode && car.lowBeamOn &&
+                    car.ignitionOn && car.engineRunning;
+  bool carAndEngineOff = !car.ignitionOn && !car.engineRunning;
+
+  if (requestedOn) {
+    lowBeamOffDelayActive = false;
+  } else if (carAndEngineOff && lowBeamBrightness > 0) {
+    if (!lowBeamOffDelayActive) {
+      lowBeamOffRequestedAt = now;
+      lowBeamOffDelayActive = true;
+    }
+    if (now - lowBeamOffRequestedAt < LOW_BEAM_OFF_DELAY_MS) return;
+  } else if (car.lowBeamOn && lowBeamBrightness > 0) {
+    // Wait for both shutdown signals before starting the delayed fade-off.
+    return;
+  } else {
+    lowBeamOffDelayActive = false;
+  }
+
+  if (now - lowBeamFadeChangedAt < LOW_BEAM_FADE_STEP_MS) return;
+  lowBeamFadeChangedAt = now;
+
+  if (requestedOn) {
+    lowBeamBrightness = min(255, lowBeamBrightness + LOW_BEAM_FADE_STEP);
+  } else {
+    lowBeamBrightness = (lowBeamBrightness > LOW_BEAM_FADE_STEP)
+                          ? lowBeamBrightness - LOW_BEAM_FADE_STEP : 0;
+  }
+
+  analogWrite(LOW_BEAM_LEFT_PIN, lowBeamBrightness);
+  analogWrite(LOW_BEAM_RIGHT_PIN, lowBeamBrightness);
+}
 
 void lightsAuto_update() {
   if (millis() - lastLightsSample < LIGHTS_SAMPLE_MS) return;

@@ -22,21 +22,21 @@ static const unsigned long PERIODIC_MS = 500;
 
 #line 21 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void setup();
-#line 64 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 70 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void loop();
-#line 101 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 109 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleIgnitionEdge();
-#line 129 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 137 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handle_runningEngine();
-#line 143 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 151 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleDoorSense();
-#line 169 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 177 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void handleBaffiButton();
-#line 186 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
-void handleLockButton();
 #line 194 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+void handleLockButton();
+#line 202 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void readBatteryVoltage();
-#line 234 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
+#line 242 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\AixamController.ino"
 void applyOutputs();
 #line 17 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\ble_link.ino"
 void bleLink_update();
@@ -108,17 +108,19 @@ void settings_saveFanAuto();
 void settings_saveTempSetpoint();
 #line 11 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
 void lcdSecondary_setup();
-#line 17 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
+#line 18 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
 void lcdSecondary_nextPage();
-#line 26 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
+#line 27 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
 void lcdSecondary_sleep();
-#line 35 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
+#line 36 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
 void lcdSecondary_wakeup();
-#line 40 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
+#line 41 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lcd_secondary.ino"
 void lcdSecondary_update();
-#line 18 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lights_auto.ino"
-void lightsAuto_update();
+#line 25 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lights_auto.ino"
+void lowBeamFade_update();
 #line 60 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lights_auto.ino"
+void lightsAuto_update();
+#line 102 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\lights_auto.ino"
 void lightsAuto_sleep();
 #line 31 "C:\\Users\\franc\\OneDrive\\Documenti\\Arduino\\AixamController\\log_sd.ino"
 static const char * levelStr(LogLevel lvl);
@@ -245,6 +247,12 @@ void setup() {
   pinMode(PWM_AUX, OUTPUT);
   pinMode(PWM_OCCHI, OUTPUT);
   pinMode(PWM_DOOR_LED, OUTPUT);
+  pinMode(RELAY_POSIZIONI, OUTPUT);
+  pinMode(RELAY_LOWBEAM, OUTPUT);
+  pinMode(LOW_BEAM_LEFT_PIN, OUTPUT);
+  pinMode(LOW_BEAM_RIGHT_PIN, OUTPUT);
+  analogWrite(LOW_BEAM_LEFT_PIN, 0);
+  analogWrite(LOW_BEAM_RIGHT_PIN, 0);
 
   pinMode(LED_MODE_AUTO, OUTPUT);
   pinMode(LED_MODE_MANUAL, OUTPUT);
@@ -276,7 +284,9 @@ void loop() {
   car.ignitionOn = (digitalRead(PIN_IGNITION) == HIGH); // TODO: verificare polarità reale dopo optoisolatore
   car.engineRunning = digitalRead(PIN_ENGINE_RUNNING);
   //car.batteryCharging = digitalRead(PIN_BATTERY_CHARGE);
-
+  applyOutputs();
+  lowBeamFade_update();
+  
   handleIgnitionEdge();
   handleDoorSense();
   handleBaffiButton();
@@ -299,7 +309,7 @@ void loop() {
 
   if (millis() - lastPeriodicTasks > PERIODIC_MS) {
     lastPeriodicTasks = millis();
-    applyOutputs();
+    
     if (car.ignitionOn) nextionUI_sendUpdate();
     bleLink_sendStatus();
     log_flushBuffer();
@@ -445,13 +455,11 @@ void readBatteryVoltage() {
 void applyOutputs() {
   digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? LOW : HIGH);
   digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
-  if(car.lightsAutoMode){
-    digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
-    digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
-  }else{
-    digitalWrite(RELAY_ANABBAGLIANTI, HIGH);
-    digitalWrite(RELAY_POSIZIONI, HIGH);
-  }
+
+  digitalWrite(RELAY_POSIZIONI, car.lightsAutoMode && car.engineRunning && car.ignitionOn &&
+               car.positionLightsOn ? LOW : HIGH);
+  digitalWrite(RELAY_LOWBEAM, car.lightsAutoMode && car.engineRunning && car.ignitionOn &&
+               car.lowBeamOn ? LOW : HIGH);
 
   digitalWrite(RELAY_SUB, car.subOn ? LOW : HIGH);
   digitalWrite(RELAY_INVERTER, car.inverterOn ? LOW : HIGH);
@@ -1118,6 +1126,7 @@ void lcdSecondary_setup() {
   lcd.init();
   lcd.backlight();
   pinMode(BTN_LCD_MODE, INPUT_PULLUP);
+  lcd.noBacklight();
 }
 
 void lcdSecondary_nextPage() {
@@ -1195,6 +1204,48 @@ static const int TH_LOWBEAM_OFF  = car.sensLowBeam+100;
 
 static unsigned long lastLightsSample = 0;
 static const unsigned long LIGHTS_SAMPLE_MS = 500;
+static const unsigned long LOW_BEAM_OFF_DELAY_MS = 5000;
+static const unsigned long LOW_BEAM_FADE_STEP_MS = 20;
+static const uint8_t LOW_BEAM_FADE_STEP = 5;
+static uint8_t lowBeamBrightness = 0;
+static unsigned long lowBeamFadeChangedAt = 0;
+static unsigned long lowBeamOffRequestedAt = 0;
+static bool lowBeamOffDelayActive = false;
+
+void lowBeamFade_update() {
+  unsigned long now = millis();
+  bool requestedOn = car.lightsAutoMode && car.lowBeamOn &&
+                    car.ignitionOn && car.engineRunning;
+  bool carAndEngineOff = !car.ignitionOn && !car.engineRunning;
+
+  if (requestedOn) {
+    lowBeamOffDelayActive = false;
+  } else if (carAndEngineOff && lowBeamBrightness > 0) {
+    if (!lowBeamOffDelayActive) {
+      lowBeamOffRequestedAt = now;
+      lowBeamOffDelayActive = true;
+    }
+    if (now - lowBeamOffRequestedAt < LOW_BEAM_OFF_DELAY_MS) return;
+  } else if (car.lowBeamOn && lowBeamBrightness > 0) {
+    // Wait for both shutdown signals before starting the delayed fade-off.
+    return;
+  } else {
+    lowBeamOffDelayActive = false;
+  }
+
+  if (now - lowBeamFadeChangedAt < LOW_BEAM_FADE_STEP_MS) return;
+  lowBeamFadeChangedAt = now;
+
+  if (requestedOn) {
+    lowBeamBrightness = min(255, lowBeamBrightness + LOW_BEAM_FADE_STEP);
+  } else {
+    lowBeamBrightness = (lowBeamBrightness > LOW_BEAM_FADE_STEP)
+                          ? lowBeamBrightness - LOW_BEAM_FADE_STEP : 0;
+  }
+
+  analogWrite(LOW_BEAM_LEFT_PIN, lowBeamBrightness);
+  analogWrite(LOW_BEAM_RIGHT_PIN, lowBeamBrightness);
+}
 
 void lightsAuto_update() {
   if (millis() - lastLightsSample < LIGHTS_SAMPLE_MS) return;

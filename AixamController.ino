@@ -34,6 +34,12 @@ void setup() {
   pinMode(PWM_AUX, OUTPUT);
   pinMode(PWM_OCCHI, OUTPUT);
   pinMode(PWM_DOOR_LED, OUTPUT);
+  pinMode(RELAY_POSIZIONI, OUTPUT);
+  pinMode(RELAY_LOWBEAM, OUTPUT);
+  pinMode(LOW_BEAM_LEFT_PIN, OUTPUT);
+  pinMode(LOW_BEAM_RIGHT_PIN, OUTPUT);
+  analogWrite(LOW_BEAM_LEFT_PIN, 0);
+  analogWrite(LOW_BEAM_RIGHT_PIN, 0);
 
   pinMode(LED_MODE_AUTO, OUTPUT);
   pinMode(LED_MODE_MANUAL, OUTPUT);
@@ -65,7 +71,9 @@ void loop() {
   car.ignitionOn = (digitalRead(PIN_IGNITION) == HIGH); // TODO: verificare polarità reale dopo optoisolatore
   car.engineRunning = digitalRead(PIN_ENGINE_RUNNING);
   //car.batteryCharging = digitalRead(PIN_BATTERY_CHARGE);
-
+  applyOutputs();
+  lowBeamFade_update();
+  
   handleIgnitionEdge();
   handleDoorSense();
   handleBaffiButton();
@@ -88,7 +96,7 @@ void loop() {
 
   if (millis() - lastPeriodicTasks > PERIODIC_MS) {
     lastPeriodicTasks = millis();
-    applyOutputs();
+    
     if (car.ignitionOn) nextionUI_sendUpdate();
     bleLink_sendStatus();
     log_flushBuffer();
@@ -234,13 +242,11 @@ void readBatteryVoltage() {
 void applyOutputs() {
   digitalWrite(TRANSISTOR_UTILITIES, car.powerAccessories ? LOW : HIGH);
   digitalWrite(RELAY_FRONT, car.powerFrontCar ? LOW : HIGH);
-  if(car.lightsAutoMode && car.engineRunning && car.ignitionOn){// TODO aggiungere cortesia agli anabbaglianti quando si accendono
-    digitalWrite(RELAY_ANABBAGLIANTI, car.lowBeamOn ? LOW : HIGH);
-    digitalWrite(RELAY_POSIZIONI, car.positionLightsOn ? LOW : HIGH);
-  }else{
-    digitalWrite(RELAY_ANABBAGLIANTI, HIGH);
-    digitalWrite(RELAY_POSIZIONI, HIGH);
-  }
+
+  digitalWrite(RELAY_POSIZIONI, car.lightsAutoMode && car.engineRunning && car.ignitionOn &&
+               car.positionLightsOn ? LOW : HIGH);
+  digitalWrite(RELAY_LOWBEAM, car.lightsAutoMode && car.engineRunning && car.ignitionOn &&
+               car.lowBeamOn ? LOW : HIGH);
 
   digitalWrite(RELAY_SUB, car.subOn ? LOW : HIGH);
   digitalWrite(RELAY_INVERTER, car.inverterOn ? LOW : HIGH);

@@ -22,6 +22,8 @@
 #define TRANSISTOR_UTILITIES   45  // transistor che comanda l'alimentazione ai relè delle luci e dei dht
 
 // ---------- PWM dimmer (MOSFET lato basso) ----------
+#define LOW_BEAM_LEFT_PIN     11  // MOSFET anabbagliante sinistro
+#define LOW_BEAM_RIGHT_PIN    12  // MOSFET anabbagliante destro
 #define PWM_AUX               7   // dimming ventole frontali ("vent" Nextion, era ambiguo nell'originale)
 #define PWM_OCCHI             6  // dimming led occhi/specchietti (spostato da pin 4: libero per SD CS)
 #define PWM_DOOR_LED          5   // dimming led "baffi"/cortesia porta
@@ -54,7 +56,7 @@
 #define RELAY_FRONT           29
 
 #define RELAY_POSIZIONI       51
-#define RELAY_ANABBAGLIANTI   53
+#define RELAY_LOWBEAM         53
 
 // ---------- Selettore velocità ventola (3 posizioni, contatti esistenti) ----------
 #define SW_FAN_POS1           32
